@@ -1,0 +1,32 @@
+body{
+  background-image:url(Images/mariobackground.gif);
+  background-size:cover;
+}
+
+main { 
+  background-color:red;
+  color:yellow;
+  background-size:cover;
+  border: 20px solid transparent;
+  padding: 20px;
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  border-image: url(Images/border.png) 20 stretch; 
+}
+
+ul li{
+  list-style-image: url(Images/mushroom.png);
+}
+
+#wrapper{
+  width:60%;
+  margin:auto;
+  margin-top:30px;
+}
+
+.specialborder{
+border-style: solid;
+border-width: 20px 20px 20px 20px;
+border-image: url(Images/border.png) 20 stretch;
+}
+  
