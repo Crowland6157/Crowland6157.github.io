@@ -1,0 +1,35 @@
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: lightgreen;
+color: blue;
+ text-align:center;
+}
+
+
+footer {
+padding: 10px;
+}
+
+
+legend {
+  color: darkblue;
+}
+
+fieldset {background-color: lightblue;
+
+}
+
+select {
+  background-color: green;
+  color: white;
+}
+
+h1 {color: green;
+background-color: lightblue;
+}

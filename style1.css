@@ -1,0 +1,32 @@
+body {
+    background-color: purple;
+  
+  }
+  table, th, td {
+    border: 6px solid;
+    border-color: black;
+    border-collapse: collapse;}
+    th, td {
+      padding:15px;
+    }
+    th {
+  background-color: lightpink;
+  color: blueviolet;
+  font-size: 30px; 
+}
+td {
+  background-color: gray;
+  font-size: 22px;
+  font-family: Georgia, serif;
+}
+td:hover {background-color:lightcoral;}
+
+h1 {
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 40px;
+  background-color: gray;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 15px 50px;
+}

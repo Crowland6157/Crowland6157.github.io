@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Feedback Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+footer {text-align:center;
+}
+form {
+border:1px solid red;
+padding: 20px;
+width: 50%;
+}
+  </style>
+  </head>
+<body>
+  <script src="script.js"></script>
+  <form method="post" action="feedback.php">
+  <label>E-mail: <input type="email" name="email" id="email" required="required"></label><br><br>
+  <label>Comments:<br>
+  <textarea rows="5" cols="40" name="comment" id="comment" maxlength="1600" required="required">
+    </textarea>
+  </label><br>
+  <br>
+  <input type="submit" value="Send Feedback"><br>
+</form>
+  <footer>
+   <p> Name: <i>Cole Rowland</i></p>
+   <p> E-Mail: <i>crowland6157@lakelandcollege.edu</i> </p>
+   <a href="https://UNIT11Project.crowland6157.repl.co"> <i> HOME</i> </a>
+  </footer>
+</body>
+</html>
